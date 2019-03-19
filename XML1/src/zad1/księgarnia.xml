@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE księgarnia SYSTEM 'księgarnia.dtd'>
+<!--
+Stwórz dokument XML, który będzie wykorzystywany w kolejnych zadaniach-projektach. Zastanów się nad możliwością umieszczenia oprócz danych o usystematyzowanej strukturze także informacji dodatkowej - takiej jak np. dane o autorze dokumentu, osobach wprowadzających poprawki, dacie ostatniej modyfikacji, itp.
+
+Opracowywany dokument XML powinien zawierać m.in. takie elementy jak:
+
+Napisy o różnym znaczeniu i różnej długości.
+Liczby w różnych formatach.
+Datę (daty), ew. kwoty pieniędzy.
+Złożone typy danych.
+Elementy o określonym zbiorze wartości (typy wyliczeniowe).
+Około 20-30 pozycji danych (może być więcej Uśmiech).
+-->
+
+<księgarnia version="0.1"> <!-- to do: spr jaka wartosc tu ma byc-->
+    <autorzy_dokumentu>
+        <autor_dokumentu>
+            <imie>Wioleta</imie>
+            <nazwisko>Zakrzewska</nazwisko>
+            <indeks>190000</indeks>
+        </autor_dokumentu>
+        <autor_dokumentu>
+            <imie>Konrad</imie>
+            <nazwisko>Pławik</nazwisko>
+            <indeks></indeks> <!-- todo: uzupelnic -->
+        </autor_dokumentu>     
+    </autorzy_dokumentu>
+    
+    <struktura>
+        <autorzy>
+            <autor autorID="martin_caparros" />
+        </autorzy>
+        <działy>
+            <dział działID="poezja" />
+        </działy>
+    </struktura>
+    
+    <dane>
+        
+    </dane>
+    
+</księgarnia>
